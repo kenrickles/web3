@@ -1,3 +1,4 @@
+const { artifacts } = require("truffle");
 var BankAccount = artifacts.require("../contracts/BankAccount");
 
 contract('BankAccount', function(accounts) {
