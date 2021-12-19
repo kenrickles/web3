@@ -12,6 +12,10 @@ module.exports = {
     }
   },
   mocha: {
+    useColors: true,
     reporter: "mocha-junit-reporter",
+    reporterOptions: {
+      configFile: './mocha-reporter-config.json',
+    }
   }
 };
