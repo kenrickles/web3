@@ -6,6 +6,11 @@ module.exports = {
       network_id: "*" // Match any network id
     }
   },
+  compilers: {
+    solc: {
+      version: "0.4.4",
+    }
+  },
   mocha: {
     reporter: "mocha-junit-reporter"
   }

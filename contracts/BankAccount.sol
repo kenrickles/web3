@@ -1,4 +1,4 @@
-pragma solidity 0.5.16;
+pragma solidity 0.4.4;
 
 contract BankAccount {
     // The Bank
@@ -26,7 +26,7 @@ contract BankAccount {
         return false;
     }
 
-    function balanceOf(address accountHolder) pure returns (uint256 balance) {
+    function balanceOf(address accountHolder) constant returns (uint256 balance) {
         return balances[accountHolder];
     }
 }
