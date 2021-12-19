@@ -13,8 +13,5 @@ module.exports = {
   },
   mocha: {
     reporter: "mocha-junit-reporter",
-    reporterOptions: {  
-    mochaFile: "test-results.xml"
-  }  
   }
 };
