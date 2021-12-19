@@ -8,7 +8,7 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "0.4.4",
+      version: "0.4.9",
     }
   },
   mocha: {
